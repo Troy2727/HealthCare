@@ -12,7 +12,6 @@
     <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
   </div>
 
- 
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -24,7 +23,6 @@
 5. 🕸️ [Snippets (Code to Copy)](#snippets)
 6. 🔗 [Assets](#links)
 7. 🚀 [More](#more)
-
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -87,6 +85,8 @@ Install the project dependencies using npm:
 ```bash
 npm install
 ```
+
+npm run dev
 
 **Set Up Environment Variables**
 

@@ -118,8 +118,8 @@ const RegisterForm = ({ user }: { user: User }) => {
           <CustomFormField
             fieldType={FormFieldType.INPUT}
             control={form.control}
-            name="name"
-            placeholder="John Doe"
+            name="address"
+            placeholder="47 Auburn St Ext #3, Framingham, MA 01701"
             iconSrc="/assets/icons/user.svg"
             iconAlt="user"
           />
@@ -129,9 +129,9 @@ const RegisterForm = ({ user }: { user: User }) => {
             <CustomFormField
               fieldType={FormFieldType.INPUT}
               control={form.control}
-              name="email"
-              label="Email address"
-              placeholder="johndoe@gmail.com"
+              name="occupation"
+              label="occupation"
+              placeholder="Software Engineer"
               iconSrc="/assets/icons/email.svg"
               iconAlt="email"
             />
