@@ -1,5 +1,5 @@
 {
-  "plugins": ["import"],
+  "plugins": ["import", "promise", "tailwindcss"],
   "extends": [
     "next/core-web-vitals",
     "standard",
