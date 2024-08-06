@@ -5,12 +5,14 @@ import { ThemeProvider } from "next-themes";
 
 import { cn } from "@/lib/utils";
 
+// Configure the font
 const fontSans = FontSans({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-sans",
 });
 
+// Metadata for the application
 export const metadata: Metadata = {
   title: "CarePulse",
   description:
@@ -20,6 +22,7 @@ export const metadata: Metadata = {
   },
 };
 
+// RootLayout component
 export default function RootLayout({
   children,
 }: Readonly<{

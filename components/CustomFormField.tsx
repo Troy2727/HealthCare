@@ -1,4 +1,6 @@
-/* eslint-disable no-unused-vars */
+import React from "react";
+
+// Rest of your code.../* eslint-disable no-unused-vars */
 import { E164Number } from "libphonenumber-js/core";
 import Image from "next/image";
 import ReactDatePicker from "react-datepicker";

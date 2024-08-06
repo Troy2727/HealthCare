@@ -1,4 +1,6 @@
-"use client";
+import React from "react";
+
+// Rest of your code..."use client";
 
 import { useState } from "react";
 

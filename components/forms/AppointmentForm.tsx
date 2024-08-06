@@ -111,7 +111,7 @@ export const AppointmentForm = ({
         }
       }
     } catch (error) {
-      console.log(error);
+      console.error("Error submitting appointment form:", error);
     }
     setIsLoading(false);
   };
@@ -125,7 +125,7 @@ export const AppointmentForm = ({
       buttonLabel = "Schedule Appointment";
       break;
     default:
-      buttonLabel = "Submit Apppointment";
+      buttonLabel = "Submit Appointment";
   }
 
   return (
@@ -182,7 +182,7 @@ export const AppointmentForm = ({
                 control={form.control}
                 name="reason"
                 label="Appointment reason"
-                placeholder="Annual montly check-up"
+                placeholder="Annual monthly check-up"
                 disabled={type === "schedule"}
               />
 
